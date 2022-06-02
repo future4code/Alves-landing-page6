@@ -11,27 +11,32 @@ body {
 }
 
 .container {
-    width: 100%;     
-    max-width: 1280px;     
-    margin: 0 auto;     
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
     padding: 0 20px 0 20px;
 
 }
 
 /* Conteudo Header */
-header{
+
+header {
     background-color: #ff914d;
     height: 5rem;
-   
-    }
 
-.cabecalho {
-text-align: justify
 }
 
-#espaco-nav>a{
+.cabecalho {
+    text-align: justify
+}
+
+#espaco-nav>a {
     padding-right: 1rem;
     font-size: 1.2rem;
+}
+
+#espaco-nav>a:hover{
+    color: rgba(255, 255, 255, 0.377);
 }
 
 a {
@@ -39,44 +44,51 @@ a {
     color: white;
 }
 
-#logo>img{
+#logo>img {
     max-height: 5rem;
     margin-top: 0;
 }
 
-#nav-botao{
-margin-left: auto;
+#nav-botao {
+    margin-left: auto;
 }
 
-#header{
+#header {
     display: flex;
     align-items: center;
 }
 
-#espaco-nav{
+#espaco-nav {
     margin: 0 auto;
 }
 
-#botao{
+#botao {
     width: 10rem;
     height: 2rem;
     border-radius: 1rem;
     background-color: #4E42DB;
-    border-color:#4E42DB;
+    border-color: #4E42DB;
     color: white;
 }
 
-
+#botao:hover{
+    background-color: #2f2781;
+    border-color: #2f2781;
+}
 
 /* Conteudo Main */
 
-#conteudo-1{
+#conteudo-1 {
     display: flex;
-    padding-top: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
     align-items: center;
+    background-color: #EFF0E8;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
 }
 
-.imagens-main{
+.imagens-main {
     width: 75%;
 }
 
@@ -84,7 +96,8 @@ h1 {
     font-size: 2rem;
     padding-bottom: 1rem;
 }
-p{
+
+p {
     color: #122418;
     line-height: 1.5rem;
     text-align: justify;
@@ -95,80 +108,141 @@ p{
     width: 10rem;
     height: 2rem;
     border-radius: 1rem;
-    background-color: #DB8A58;
-    border-color: #DB8A58;
+    background-color: #4E42DB;
+    border-color: #4E42DB;
     color: white;
 }
 
+.botao-main:hover{
+    background-color: #2f2781;
+    border-color: #2f2781;
+}
+
 #conteudo-2 {
-    display: flex;
+    margin-top: 1rem;
     padding-top: 1rem;
+    display: flex;
     align-items: center;
     padding-bottom: 2rem;
+    
 }
 
-#texto-cartao{
-padding-left: 8rem;
+#texto-cartao {
+    padding-left: 8rem;
 }
 
-#logo-main{
+#logo-main {
     width: 10rem;
     border-radius: 80%;
 }
 
-#conteudo-3{
+#conteudo-3 {
     text-align: center;
     padding-top: 2rem;
+    background-color: #EFF0E8;
+    border-top: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+
 }
-#conteudo-3>h1{
+
+#conteudo-3>h1 {
     padding-top: 1rem;
 }
 
-#conteudo-4{
+#conteudo-4 {
     display: flex;
     text-align: center;
+    background-color: #EFF0E8;
+    margin-bottom: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
 }
 
-article{
+article {
     padding: 1rem;
-
+    width: 100%;
 }
 
-article>h2{
+article>h2 {
     padding-bottom: 1rem;
 }
 
 
 /* Conteudo Footer */
-footer{
-    background-color: #DB8A58;
+
+footer {
+    background-color: #ff914d;
     padding-top: 3rem;
+    color: white;
+    padding-bottom: 1rem;
 }
 
-#social-media{
+#social-media {
     align-items: center;
     display: flex;
+    padding-bottom: 1rem;
 }
 
-nav>ol{
-    padding-left: 2rem;
+#social-media>h5 {
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.redes-sociais {
+    padding: 1rem;
+}
+
+#logo-footer {
+    width: 5rem;
+    border-right: solid 1px rgb(255, 255, 255);
+    padding-right: 1rem;
+}
+
+#social-media>picture {
     display: flex;
+    align-items: center;
 }
 
-ol>li{
+picture>h1 {
+    font-size: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+table {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+tr>th {
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+tr>td {
+    padding-right: 1rem;
+}
+
+#copy>p {
+    color: white;
+}
+
+#direitos-autorais {
+    display: flex;
+    align-items: center;
+}
+
+#aplicativos {
     margin-left: auto;
 }
 
-#logo-footer{
-    width: 5rem;
+.img-social {
+    width: 3rem;
 }
 
-#social-media>picture{
-    display: flex;
-    align-items: center;
-}
-
-picture>h1{
-    font-size: 1rem;
-    padding-left: 1rem;
+.img_aplicativos {
+    width: 10rem;
 }
