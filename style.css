@@ -140,4 +140,35 @@ article>h2{
 
 
 /* Conteudo Footer */
+footer{
+    background-color: #DB8A58;
+    padding-top: 3rem;
+}
 
+#social-media{
+    align-items: center;
+    display: flex;
+}
+
+nav>ol{
+    padding-left: 2rem;
+    display: flex;
+}
+
+ol>li{
+    margin-left: auto;
+}
+
+#logo-footer{
+    width: 5rem;
+}
+
+#social-media>picture{
+    display: flex;
+    align-items: center;
+}
+
+picture>h1{
+    font-size: 1rem;
+    padding-left: 1rem;
+}
