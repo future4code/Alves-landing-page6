@@ -215,23 +215,18 @@ footer {
 #social-media {
     align-items: center;
     display: flex;
-    padding-bottom: 1rem;
+    text-align: center;
 }
 
 #social-media>h5 {
     padding-left: 1rem;
-    width: 100%;
 }
 
 .redes-sociais {
     padding: 1rem;
+    margin: 0 auto;
 }
 
-#logo-footer {
-    width: 100%;
-    border-right: solid 1px rgb(255, 255, 255);
-    padding-right: 1rem;
-}
 
 #social-media>picture {
     display: flex;
@@ -247,6 +242,7 @@ picture>h1 {
 table {
     margin: 0 auto;
     padding: 1rem;
+    padding-bottom: 5rem;
 }
 
 tr>th {
@@ -343,6 +339,10 @@ tr>td {
     #logo-footer {
         width: 80%;
         border: unset;
+    }
+
+    table {
+        text-align: center;
     }
 
     #aplicativos {
