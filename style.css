@@ -170,6 +170,39 @@ article>h2 {
     padding-bottom: 1rem;
 }
 
+#cadastro-cartao {
+    display: flex;
+    padding-top: 5rem;
+    align-items: center;
+}
+
+.entrada-dado {
+    display:block;
+    margin: 1rem;
+    height: 3rem;
+    width: 80%;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    border-color: rgba(0, 0, 0, 0.356);
+
+}
+
+strong {
+    color: #ff914d;
+}
+
+#form-butao {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #2f2781;
+    border-color: #2f2781;
+}
 
 /* Conteudo Footer */
 
