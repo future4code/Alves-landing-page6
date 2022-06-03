@@ -23,7 +23,6 @@ body {
 header {
     background-color: #ff914d;
     height: 5rem;
-
 }
 
 .cabecalho {
@@ -35,7 +34,7 @@ header {
     font-size: 1.2rem;
 }
 
-#espaco-nav>a:hover{
+#espaco-nav>a:hover {
     color: rgba(255, 255, 255, 0.377);
 }
 
@@ -71,7 +70,7 @@ a {
     color: white;
 }
 
-#botao:hover{
+#botao:hover {
     background-color: #2f2781;
     border-color: #2f2781;
 }
@@ -113,7 +112,7 @@ p {
     color: white;
 }
 
-.botao-main:hover{
+.botao-main:hover {
     background-color: #2f2781;
     border-color: #2f2781;
 }
@@ -124,7 +123,7 @@ p {
     display: flex;
     align-items: center;
     padding-bottom: 2rem;
-    
+
 }
 
 #texto-cartao {
@@ -177,7 +176,7 @@ article>h2 {
 }
 
 .entrada-dado {
-    display:block;
+    display: block;
     margin: 1rem;
     height: 3rem;
     width: 80%;
@@ -229,7 +228,7 @@ footer {
 }
 
 #logo-footer {
-    width: 5rem;
+    width: 100%;
     border-right: solid 1px rgb(255, 255, 255);
     padding-right: 1rem;
 }
@@ -278,4 +277,84 @@ tr>td {
 
 .img_aplicativos {
     width: 10rem;
+}
+
+@media screen and (max-width: 800px) {
+
+    /* Configuraçãoes globais */
+
+    * {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    /* Header */
+
+    header {
+        height: 100%;
+        padding: 10px;
+
+    }
+    #espaco-nav{
+        padding-bottom: 10px;
+    }
+
+    #espaco-nav>a {
+        padding-right: unset;
+        font-size: 17px;
+        padding: 5px;
+
+    }
+
+
+    /* Main */
+
+    main {
+        overflow-x: hidden
+    }
+
+    #cadastro-cartao {
+        flex-wrap: wrap;
+
+    }
+
+    .botao-main {
+        margin-bottom: 30px;
+    }
+
+    #texto-cartao {
+        padding: 20px;
+    }
+
+    /* Footer */
+
+    footer {
+        padding: 10px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    #logo-footer {
+        width: 80%;
+        border: unset;
+    }
+
+    #aplicativos {
+        padding-top: 30px;
+    }
+
+    #social-media {
+        text-align: center;
+    }
+
+    picture>h1 {
+        margin: auto;
+    }
+
 }
